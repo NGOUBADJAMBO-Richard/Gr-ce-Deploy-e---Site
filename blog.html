@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> A propos - Église Grâce Déployée</title>
+    <title> Blog/Actualités - Église Grâce Déployée</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.2.3/cdn.min.js" defer></script>
@@ -60,54 +60,54 @@
     </nav>
     <!-- End Navbar -->
 
-    <!-- Section Introduction -->
+    <!-- Section Blog / Actualités -->
     <section class="container mx-auto px-6 py-10">
-        <h2 class="text-4xl font-bold text-center mb-4">À propos de Grâce Déployée</h2>
-        <p class="text-lg text-center mb-6">Bienvenue sur la page de présentation de l'Église Grâce Déployée, un lieu de
-            foi, d'espérance, et d'amour. Nous croyons que la grâce de Dieu est le fondement de tout, et nous nous
-            efforçons de déployer cette grâce à travers la communauté.</p>
-    </section>
+        <h2 class="text-4xl font-bold text-center mb-10">Blog / Actualités</h2>
 
-    <!-- Section Message de l'Apôtre -->
-    <section class="bg-blue-100 py-10">
-        <div class="container mx-auto px-6 text-center">
-            <h3 class="text-3xl font-semibold mb-4">Message de l'Apôtre Philipe A. SHEMBO</h3>
-            <p class="text-lg max-w-2xl mx-auto mb-6">"Bienvenue à Grâce Déployée, où nous nous réunissons pour adorer,
-                apprendre, et grandir ensemble dans la foi. Que vous soyez un ancien croyant ou que vous découvriez la
-                foi pour la première fois, nous vous accueillons avec amour et bienveillance. Rejoignez-nous dans ce
-                voyage spirituel, où nous explorons les vérités bibliques et déployons la grâce divine dans tous les
-                aspects de notre vie."</p>
-            <img src="path_to_image_of_apotre.jpg" alt="Apôtre Philipe A. SHEMBO"
-                class="rounded-full h-40 w-40 mx-auto">
+        <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+            <!-- Article Card 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="path_to_article_image_1.jpg" alt="Image de l'article" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-2">Titre de l'article 1</h3>
+                    <p class="text-gray-700 mb-4">Brève description de l'article pour attirer l'attention des
+                        lecteurs...</p>
+                    <a href="article1.html" class="text-gold-500 hover:text-blue-700 font-bold">Lire plus</a>
+                </div>
+            </div>
+
+            <!-- Article Card 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="path_to_article_image_2.jpg" alt="Image de l'article" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-2">Titre de l'article 2</h3>
+                    <p class="text-gray-700 mb-4">Brève description de l'article pour donner un aperçu aux visiteurs...
+                    </p>
+                    <a href="article2.html" class="text-gold-500 hover:text-blue-700 font-bold">Lire plus</a>
+                </div>
+            </div>
+
+            <!-- Article Card 3 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="path_to_article_image_3.jpg" alt="Image de l'article" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-2">Titre de l'article 3</h3>
+                    <p class="text-gray-700 mb-4">Description courte de l'article pour informer les lecteurs...</p>
+                    <a href="article3.html" class="text-gold-500 hover:text-blue-700 font-bold">Lire plus</a>
+                </div>
+            </div>
+
+            <!-- Ajouter d'autres cartes d'article au besoin -->
         </div>
     </section>
 
-    <!-- Section Mission, Vision et Valeurs -->
-    <section class="container mx-auto px-6 py-10">
-        <h3 class="text-3xl font-semibold text-center mb-8">Notre Mission, Vision et Valeurs</h3>
-        <div class="grid md:grid-cols-3 gap-8">
-            <!-- Mission -->
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h4 class="text-2xl font-bold mb-4">Mission</h4>
-                <p>Nous existons pour diffuser l'amour et la grâce de Dieu dans notre communauté et au-delà, en menant
-                    des vies transformées par l'évangile et en servant ceux qui en ont besoin.</p>
-            </div>
-            <!-- Vision -->
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h4 class="text-2xl font-bold mb-4">Vision</h4>
-                <p>Être une église dynamique et engagée qui inspire la foi en Jésus-Christ, propage la vérité biblique,
-                    et soutient les membres dans leur croissance spirituelle.</p>
-            </div>
-            <!-- Valeurs -->
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <h4 class="text-2xl font-bold mb-4">Valeurs</h4>
-                <ul class="list-disc pl-6 space-y-2">
-                    <li>Amour et compassion</li>
-                    <li>Intégrité et authenticité</li>
-                    <li>Service et humilité</li>
-                    <li>Foi et persévérance</li>
-                </ul>
-            </div>
+    <!-- Section de Pagination -->
+    <section class="container mx-auto text-center my-10">
+        <div class="inline-flex rounded-md shadow">
+            <button
+                class="py-2 px-4 bg-gray-200 text-blue-900 font-semibold rounded-l-lg hover:bg-gray-300">Précédent</button>
+            <button class="py-2 px-4 bg-blue-900 text-white font-semibold hover:bg-blue-800">1</button>
+            <button class="py-2 px-4 bg-gray-200 text-blue-900 font-semibold hover:bg-gray-300">Suivant</button>
         </div>
     </section>
 
